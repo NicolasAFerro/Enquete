@@ -3,18 +3,34 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: #fff;
 }
+.header-title {
+  color: #fbc624;
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin: 0 25% 2rem;
+}
+.header-subtitle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1rem;
+  text-align: center;
+  gap: 0.6rem;
+}
+
 .container {
   background: linear-gradient(to bottom, #1f0d23 0%, #6e3478 100%);
   width: 600px;
   box-shadow: 1px 3px 8px 1px rgba(#6e3478);
   border-radius: 5px;
   overflow: hidden;
-  padding: 2rem;
+  padding: 1.8rem;
   margin: auto;
 }
 .form {
   background: linear-gradient(to bottom, #6e3478 0%, #1f0d23 100%);
-  padding: 5rem;
+  padding: 1rem;
+  border-radius: 5px;
 }
 .card {
   background: linear-gradient(to bottom, #3e5fef 0%, #72ccff 100%);
